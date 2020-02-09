@@ -1,2 +1,2 @@
 # DataStructureJava
-Data structure study implemented by JAVA
+Data structure implemented by JAVA
