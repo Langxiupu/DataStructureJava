@@ -32,7 +32,7 @@ public class quickSort {
     private static <T extends Comparable<? super T>>
     void quickSort(T[] a, int left, int right)
     {
-        if(a.length >= CUTOFF)
+        if(right - left + 1 >= CUTOFF)
         {
             T pivot = median(a, left, right);
 
