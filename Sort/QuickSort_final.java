@@ -55,11 +55,11 @@ public class quickSort {
         else
         {
             // use insertionSort
-            for(int i = 1; i < a.length; ++i)
+            for(int i = left; i <= right; ++i)
             {
                 T tmp = a[i];
                 int j;
-                for(j = i; j >= 1
+                for(j = i; j >= left + 1
                         && tmp.compareTo(a[j - 1]) < 0; --j)
                     a[j] = a[j - 1];
                 a[j] = tmp;
