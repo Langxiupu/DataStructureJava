@@ -55,7 +55,7 @@ public class quickSort {
         else
         {
             // use insertionSort
-            for(int i = left; i <= right; ++i)
+            for(int i = left + 1; i <= right; ++i)
             {
                 T tmp = a[i];
                 int j;
